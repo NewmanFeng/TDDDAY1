@@ -1,0 +1,6 @@
+c:\users\charles feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\bin\Debug\TDDDay1.exe.config
+C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\bin\Debug\TDDDay1.exe
+C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\bin\Debug\TDDDay1.pdb
+C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.csprojResolveAssemblyReference.cache
+C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.exe
+C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.pdb
