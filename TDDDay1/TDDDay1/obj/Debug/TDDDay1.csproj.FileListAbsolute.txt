@@ -4,3 +4,9 @@ C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\bin\
 C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.csprojResolveAssemblyReference.cache
 C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.exe
 C:\Users\Charles Feng\documents\visual studio 2015\Projects\TDDDay1\TDDDay1\obj\Debug\TDDDay1.pdb
+C:\GitHub\TDDDay1\TDDDay1\bin\Debug\TDDDay1.exe.config
+C:\GitHub\TDDDay1\TDDDay1\obj\Debug\TDDDay1.exe
+C:\GitHub\TDDDay1\TDDDay1\obj\Debug\TDDDay1.pdb
+C:\GitHub\TDDDay1\TDDDay1\TDDDay1\bin\Debug\TDDDay1.exe.config
+C:\GitHub\TDDDay1\TDDDay1\TDDDay1\obj\Debug\TDDDay1.exe
+C:\GitHub\TDDDay1\TDDDay1\TDDDay1\obj\Debug\TDDDay1.pdb
