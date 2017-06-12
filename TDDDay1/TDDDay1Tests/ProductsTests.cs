@@ -28,12 +28,12 @@ namespace TDDDay1.Tests
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_3_property_is_Cost_ShouldEqualExpected()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 3;
             var property = "Cost";
             var expected = new int[] { 6, 15, 24, 21 };
 
-            var actual = products.GetGroupingSumArray(countPerGroup, property);
+            var actual = target.GetGroupingSumArray(countPerGroup, property);
 
             expected.ToExpectedObject().ShouldEqual(actual);
 
@@ -42,12 +42,12 @@ namespace TDDDay1.Tests
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_4_property_is_Revenue_ShouldEqualExpected()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 4;
             var property = "Revenue";
             var expected = new int[] { 50, 66, 60 };
 
-            var actual = products.GetGroupingSumArray(countPerGroup, property);
+            var actual = target.GetGroupingSumArray(countPerGroup, property);
 
             expected.ToExpectedObject().ShouldEqual(actual);
 
@@ -56,12 +56,12 @@ namespace TDDDay1.Tests
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_11_property_is_Cost_ShouldEqualExpected()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 11;
             var property = "Cost";
             var expected = new int[] { 185 };
 
-            var actual = products.GetGroupingSumArray(countPerGroup, property);
+            var actual = target.GetGroupingSumArray(countPerGroup, property);
 
             expected.ToExpectedObject().ShouldEqual(actual);
 
@@ -70,12 +70,12 @@ namespace TDDDay1.Tests
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_12_property_is_Cost_ShouldEqualExpected()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 12;
             var property = "Cost";
             var expected = new int[] { 185 };
 
-            var actual = products.GetGroupingSumArray(countPerGroup, property);
+            var actual = target.GetGroupingSumArray(countPerGroup, property);
 
             expected.ToExpectedObject().ShouldEqual(actual);
 
@@ -85,22 +85,22 @@ namespace TDDDay1.Tests
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_0_property_is_Cost_Throw_ArgumentExecption()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 0;
             var property = "Cost";
 
-            Action action = () => products.GetGroupingSumArray(countPerGroup, property);
+            Action action = () => target.GetGroupingSumArray(countPerGroup, property);
             action.ShouldThrow<ArgumentException>();
         }
 
         [TestMethod()]
         public void GetGroupingSumArray_countPerGroup_is_3_property_is_NonExist_Throw_ArgumentExecption()
         {
-            var products = new Items(_productList);
+            var target = new Items(_productList);
             var countPerGroup = 3;
             var property = "NonExist";
 
-            Action action = () => products.GetGroupingSumArray(countPerGroup, property);
+            Action action = () => target.GetGroupingSumArray(countPerGroup, property);
             action.ShouldThrow<ArgumentException>();
         }
     }
