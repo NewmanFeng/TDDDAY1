@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 
 namespace TDDDay1
 {
@@ -10,22 +6,22 @@ namespace TDDDay1
     {
         static void Main(string[] args)
         {
-            var p = new Products();
+            var p = new Items();
         }
     }
 
-    internal class Products
+    internal class Items
     {
-        public Products()
+        public Items()
         {
 
         }
-        public Products(List<Product> products)
+        public Items(IEnumerable items)
         {
 
         }
 
-        public int[] GetGroupArray(int countPerGroup, string property)
+        public int[] GetGroupingSumArray(int countPerGroup, string property)
         {
             return new int[] {};
         }
@@ -35,5 +31,7 @@ namespace TDDDay1
     {
         public int Id { get; set; }
         public int Cost { get; set; }
+        public int Revenue { get; set; }
+        public int SellPrice { get; set; }
     }
 }
